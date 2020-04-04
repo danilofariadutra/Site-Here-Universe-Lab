@@ -1,0 +1,327 @@
+/* CSS Document */
+
+.center p {
+    color: white;            
+}
+
+.center h3 {
+    color: white;    
+}
+
+.borda {
+    border: 1px solid red;
+}
+
+.borda2 {
+    border: 1px solid yellow;
+}
+
+li a.btn-danger {
+    transition-duration: 1s !important;
+}
+
+li a.btn-danger:hover {
+    color: white !important;
+    text-align: justify !important;
+    transition-duration: 1s !important;
+}
+
+/* Formatação para notícias, postagens e thumbs de notícias */
+div.artigos-importantes {
+    margin-top: 2.5em !important;
+}
+.artigos-importantes h1 {
+    font-size: 1.8em !important;
+    text-align: justify; !important;
+    margin: 0 2em;
+}
+.artigos-importantes p {
+    text-align: justify!important;
+    font-weight: 500 !important;
+    margin: 2em 1.5em !important;
+}
+.artigos-importantes h3 {
+    font-size: 1.8em !important;
+    text-align: center !important;
+    margin: 0 2em;
+}
+.artigos-importantes a {
+    margin: 2em;
+}
+.artigos-importantes p {
+    text-align: justify!important;
+    font-weight: 500 !important;
+    margin: 2em 1.5em !important;
+}
+.thumbs {
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: .1em;
+    box-shadow: .05em .05em .1em rgba(30,32,48,1.00);
+    padding: 0;
+}      
+
+p.noticias {
+    font-size: 16px;
+    color: rgba(30,32,48,1.00);
+}
+
+h1.noticias {
+    font-size: 1.5em !important;
+    color: rgba(50,50,50,1.00);
+}
+
+div.citacao {
+    letter-spacing: 0.18em;
+}
+
+.postagem-principal p  {
+    margin: 3em 0 3.5em 0;
+    text-align: justify;
+    font-size:1.25rem;
+    font-weight:300;    
+}
+
+.postagem-principal hr {
+    margin: 3em 0 3.5em 0;    
+}
+
+p.postagem-credito {
+    font-size: 12px;
+    font-weight: 200;    
+}
+
+time.postagem-data {
+    font-weight: 300;
+}
+
+p.autor {
+    font-weight: bold;
+}
+
+ol.sobre li {
+    margin-bottom: 1.5em;
+}
+/* fim Formatação para notícias, postagens e thumbs de notícias */
+
+/* Links */
+.text-decoration-none {
+    text-decoration: none !important;    
+}
+
+.text-decoration-none-dark {
+    text-decoration: none !important;
+    color: #1F1F1F !important;
+}
+.text-decoration-none-dark:hover {
+    color: #8D8D8D !important;
+}
+
+.text-decoration-none-light {
+    text-decoration: none !important;
+    color: #fff !important;
+}
+.text-decoration-none-light:hover {
+    text-decoration: none !important;
+    color: #C1BEBE !important;
+}
+/* fim Links */
+
+/* Rodapé */
+div.conteudo-rodape {
+    text-align: center !important;
+    margin: auto !important;
+}
+footer a.portal {
+   color: #ff0000;
+   text-decoration: none;
+}
+
+footer a.portal:hover {
+   color: #fff;
+}
+
+/* fim Rodapé */
+
+/* Tipografia
+-------------------------*/
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    li.buttons{
+        padding-left: 0 !important;
+    }
+    .nav-menu {
+        margin-left: -100px;
+    }
+    
+    button.inscreva {
+        width: 70%;
+    }
+     button.login {
+        width: 70%;
+    }
+    
+    h1.text-info {
+        font-size: 1.5em !important;
+        text-align: center !important;
+    }
+    .jumbotron h3 {
+        font-size: 1.8em;
+        text-align: center;
+    }
+    .jumbotron a{
+        margin-left: 5em;
+    }
+    .artigos-importantes h3 {
+        font-size: 1.8em !important;
+        text-align: center;
+    }
+    .artigos-importantes p {
+        text-align: justify!important;
+        font-weight: 500 !important;
+        margin: 2em 1.5em !important;
+    }
+    .artigos-importantes a {
+        margin-left: 6em;
+    }
+
+    q.blockquote {
+        font-size: 1em !important; 
+    }
+    blockquote.blockquote-footer {
+        font-size: .7em !important;         
+    }
+    .artigos-importantes {
+        margin: 2em 0 .5em 0 !important;
+    }
+    div.artigos-importantes p, div.artigos-importantes h1 { 
+        padding: 0px !important;
+        margin: 1em;
+    }
+    div.conteudo-rodape {
+        margin: auto !important;        
+    }
+    div.conteudo-logo p {
+        margin: auto auto 1em auto;
+    }
+    span.texto-rodape {
+        margin: auto !important;
+    }
+    .redes-sociais a {
+        margin-right: -1em !important;   
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    li.buttons{
+        padding-left: 0 !important;
+    }
+    .nav-menu {
+        margin-left: -140px;
+    }
+    
+    button.inscreva {
+        width: 70%;
+    }
+     button.login {
+        width: 70%;
+    }
+    h1.text-info {
+        font-size: 2em !important;
+        text-align: center !important;
+    }
+    p.artigos-importantes {
+        margin: 1em !important;
+    }
+    p.lead {
+        font-size: 1.2em !important;        
+    }
+    q.blockquote {
+        font-size: 1.1em !important;
+    }
+    blockquote.blockquote-footer {
+        font-size: .8em !important;         
+    }
+    .artigos-importantes  {
+        margin: 0px !important;
+    }
+    div.artigos-importantes p, div.artigos-importantes h1 { 
+        padding: 0px !important;
+        margin: 1.2em;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h1.text-info {
+        font-size: 2.3em !important;
+        text-align: center !important;
+    }
+    p.lead {
+        font-size: 1.3em !important;        
+    }
+    .artigos-importantes  {
+        margin: 0px !important;
+    }
+    div.artigos-importantes p, div.artigos-importantes h1 { 
+        padding: 0px !important;
+        margin: 1.4em;
+    }
+    div.conteudo-rodape {
+        width: 70% !important;
+        margin: auto !important;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    h1.text-info {
+        font-size: 2.5em !important;
+        text-align: center !important;
+    }
+    p.artigos-importantes {
+        margin: 1.5em !important;
+    }
+    div.conteudo-rodape {
+        width: 50% !important;
+        margin: auto !important;
+    }
+    
+}
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    h1.text-info {
+        font-size: 2.8em !important;
+        margin-left: 1em !important;
+    }
+    p.artigos-importantes {
+        margin: 1.5em !important;        
+    }
+    div.artigos-importantes img {
+        padding: 0px !important;
+        margin-left: 0px !important;
+        float: left !important;
+    }
+    div.conteudo-rodape {
+        width: 50% !important;
+    }
+}
+
+/* Extra large devices (large desktops)*/
+/* No media query since the extra-large breakpoint has no upper bound on its width*/
+
+/* Remover Placeholder ao clicar */
+input:focus::-webkit-input-placeholder {
+   color: transparent;
+}
+input:focus:-moz-placeholder { /* Firefox 18- */
+   color: transparent;  
+}
+input:focus::-moz-placeholder {  /* Firefox 19+ */
+   color: transparent;  
+}
+input:focus:-ms-input-placeholder {  
+   color: transparent;  
+}
+/* Remover Placeholder ao clicar */
